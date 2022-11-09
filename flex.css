@@ -1,0 +1,99 @@
+body {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(32, 126, 126);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-para {
+    color: rgb(192, 252, 73);
+    font-size: small;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.header-content {
+    color: rgb(138, 133, 133);
+    text-align: justify;
+    line-height: 25px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    border: none;
+    position: relative;
+    align-items: center;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.container_details {
+    display: flexbox;
+    background-color: rgb(10, 165, 113);
+    color: #fff;
+    width: 20;
+    height: 70%;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+}
+
+.container_content {
+    display: flexbox;
+    background-color: rgb(80, 158, 131);
+    color: #fff;
+    width: 20;
+    height: 50%;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    padding: 5px;
+}
+
+.whyus {
+    color: #fff;
+    text-indent: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    font-weight: 500;
+    margin: 5px 5px;
+}
+
+.permonth {
+    font-size: smaller;
+    opacity: 80%;
+}
+
+button {
+    border-radius: 2px;
+    background-color: rgb(151, 245, 29);
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    width: 70%;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    line-height: 25px;
+}
